@@ -2,6 +2,8 @@
     // recupero i dati paragrafo e parola da index.php con l'utilizzo di GET
     $paragraph=$_GET['paragrafo'];
     $word=$_GET['parola'];
+    // utilizzo di str_replace per sostiuire la word con gli asterischi all'interno di paragraph
+    $new_paragraph = str_replace($word, '(***)', $paragraph)
 ?>
 
 <!DOCTYPE html>
