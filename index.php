@@ -41,7 +41,7 @@
                         <textarea class="form-control" name="parola" type="text" placeholder="Badword" rows="3" required></textarea>
                     </div>
                     <div class="col-12 text-center">
-                        <button type="submit" class="btn btn-sm btn-success">Invia</button>
+                        <button type="submit" class="btn btn-lg btn-success">Invia</button>
                     </div>
                 </div>
             </form>
