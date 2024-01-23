@@ -28,17 +28,17 @@
                 <div class="row">
                     <div class="col-6 py-3">
                         <div class="col-12 text-center">
-                            <label for="control-label">Paragrafo</label>
+                            <label class="fs-3" for="control-label">Paragrafo</label>
                         </div>
                         <!-- il parametro name è utilizzato per il passaggio di dati a dashboard.php -->
-                        <input class="form-control" name="paragrafo" type="text" placeholder="Paragrafo" required>
+                        <textarea class="form-control" name="paragrafo" type="text" placeholder="Paragrafo" rows="3" required></textarea>
                     </div>
                     <div class="col-6 py-3">
                         <div class="col-12 text-center">
-                            <label class="text-center" for="control-label">Badword</label>
+                            <label class="fs-3" for="control-label">Badword</label>
                         </div>
                         <!-- il parametro name è utilizzato per il passaggio di dati a dashboard.php -->
-                        <input class="form-control" name="parola" type="text" placeholder="Badword" required>
+                        <textarea class="form-control" name="parola" type="text" placeholder="Badword" rows="3" required></textarea>
                     </div>
                     <div class="col-12 text-center">
                         <button type="submit" class="btn btn-sm btn-success">Invia</button>
