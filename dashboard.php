@@ -13,7 +13,12 @@
 </head>
 <body>
     <div>
-        
+        <!-- utilizzo di echo per stampare a schermo la variabile paragraph -->
+        <?php echo $paragraph ?>
+    </div>
+    <div>
+        <!-- utilizzo di strlen per stampare la lunghezza della variabile paragraph -->
+        Lunghezza del paragrafo: <?php echo strlen($paragraph) ?> caratteri
     </div>
 </body>
 </html>
