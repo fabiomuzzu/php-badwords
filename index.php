@@ -23,21 +23,28 @@
     <!-- MAIN -->
     <main>
         <div class="container">
-            <div class="row">
-                <form action="">
+            <!-- Form con due campi, action e method per trasmettere i dati alla dashboard -->
+            <form action="dashboard.php" method="GET">
+                <div class="row">
                     <div class="col-6 py-3">
-                        <label for="control-label">Paragrafo</label>
-                        <input class="form-control" type="text" >
+                        <div class="col-12 text-center">
+                            <label for="control-label">Paragrafo</label>
+                        </div>
+                        <!-- il parametro name è utilizzato per il passaggio di dati a dashboard.php -->
+                        <input class="form-control" name="paragrafo" type="text" placeholder="Paragrafo" required>
                     </div>
                     <div class="col-6 py-3">
-                        <label for="control-label">Badword</label>
-                        <input class="form-control" type="text">
+                        <div class="col-12 text-center">
+                            <label class="text-center" for="control-label">Badword</label>
+                        </div>
+                        <!-- il parametro name è utilizzato per il passaggio di dati a dashboard.php -->
+                        <input class="form-control" name="parola" type="text" placeholder="Badword" required>
                     </div>
-                    <div class="col-12">
-
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-sm btn-success">Invia</button>
                     </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </main>
 </body>
