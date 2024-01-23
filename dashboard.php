@@ -22,5 +22,13 @@
         <!-- utilizzo di strlen per stampare la lunghezza della variabile paragraph -->
         Lunghezza del paragrafo: <?php echo strlen($paragraph) ?> caratteri
     </div>
+    <div>
+        <!-- utilizzo di echo per stampare a schermo la variabile new_paragraph -->
+        <?php echo $new_paragraph ?>
+    </div>
+    <div>
+        <!-- utilizzo di strlen per stampare la lunghezza della variabile new_paragraph -->
+        Lunghezza del paragrafo: <?php echo strlen($new_paragraph) ?> caratteri
+    </div>
 </body>
 </html>
