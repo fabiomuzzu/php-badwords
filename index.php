@@ -24,10 +24,11 @@
     <main>
         <div class="container">
             <div class="row">
-                <form action="">
+                <!-- Form con due campi, action e method per trasmettere i dati alla dashboard -->
+                <form action="dashboard.php" method="GET">
                     <div class="col-6 py-3">
                         <label for="control-label">Paragrafo</label>
-                        <input class="form-control" type="text" >
+                        <input class="form-control" type="text">
                     </div>
                     <div class="col-6 py-3">
                         <label for="control-label">Badword</label>
